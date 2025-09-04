@@ -2,8 +2,7 @@
 
 # NLP Business Requirements Extractor
 
-This project extracts and preprocesses business requirement texts from PDF documents using Bert Natural Language Processing (NLP).  
-It performs text extraction, preprocessing, and later applies NLP models for requirement analysis.
+This project extracts  business requirements from unedited PDF documents using BERT-based Natural Language Processing (NLP). It performs text extraction, preprocessing, and applies NLP models for requirement analysis.
 
 ---
 
@@ -27,6 +26,9 @@ pip install -r requirements.txt
 Usage
 
 1.Place your PDF files into the data/ folder.
+
 2.Open the Jupyter notebook:
+
 jupyter notebook NLP_Business_Requirements_Extractor.ipynb
+
 3.Run the cells to extract and preprocess text from the PDFs.
