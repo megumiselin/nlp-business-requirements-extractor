@@ -44,10 +44,6 @@ scikit-learn
 
 nltk
 
-transformers (if BERT or HuggingFace models are used)
-
-PyMuPDF or pdfminer.six (for PDF text extraction)
-
 jupyter
 
 License
