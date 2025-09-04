@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 ---
 Usage
-
+---
 1.Place your PDF files into the data/ folder.
 
 2.Open the Jupyter notebook:
@@ -32,3 +32,24 @@ Usage
 jupyter notebook NLP_Business_Requirements_Extractor.ipynb
 
 3.Run the cells to extract and preprocess text from the PDFs.
+
+---
+Requirements (Main libraries)
+---
+pandas
+
+numpy
+
+scikit-learn
+
+nltk
+
+transformers (if BERT or HuggingFace models are used)
+
+PyMuPDF or pdfminer.six (for PDF text extraction)
+
+jupyter
+
+License
+---
+This project is for educational purposes.
